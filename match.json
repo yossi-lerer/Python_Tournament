@@ -2,7 +2,13 @@
     {
         "home_team_id": 1,
         "away_team_id": 2,
+        "home_goals": 5,
+        "away_goals": 6
+    },
+    {
+        "home_team_id": 2,
+        "away_team_id": 3,
         "home_goals": 3,
-        "away_goals": 5
+        "away_goals": 3
     }
 ]
