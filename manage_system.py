@@ -5,6 +5,8 @@ from result_func import organizing_match_info, update_team_by_result
 from json_fs import writing_data, read_data
 from display import display_list
 from validation import validate_team_not_exists, validate_not_played_in_the_past
+from data_sorting import sorting_scraping_groups
+
 def main_system():
 
 
@@ -27,10 +29,8 @@ def main_system():
                     print(writing_data("teams.json",team_info))
                     break
                 print("the team is exist!")
-
         elif user_choose_menu == 2:
             display_list(read_data("teams.json"))
-
         elif user_choose_menu == 3:
             home_team_id = user_num_input("home_team_id")
             away_team_id = user_num_input("away_team_id")
@@ -42,5 +42,11 @@ def main_system():
                 update_team_by_result(read_data("teams.json"), match_info)
             else:
                 print("the game is played in the past")
+        elif user_choose_menu == 4:
+            display_list(sorting_scraping_groups(read_data("teams.json")))
+        elif user_choose_menu == 5:
+            display_list([sorting_scraping_groups(read_data("teams.json"))[0]])
+        elif user_choose_menu == 6:
+            pass
         elif user_choose_menu == 0:
             break
