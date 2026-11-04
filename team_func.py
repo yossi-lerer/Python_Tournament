@@ -1,6 +1,6 @@
-def organizing_team_info(team_name):
+def organizing_team_info(team_id, team_name):
     team = {
-    "id": 1,
+    "id": team_id,
     "name": team_name, 
     "played": 0,
     "wins": 0, 
