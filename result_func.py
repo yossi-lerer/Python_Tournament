@@ -12,6 +12,7 @@ def organizing_match_info(home_team_id, away_team_id, home_goals, away_goals):
 def update_team_by_result(teams, match_result):
     for team in teams:
         if team["id"] == match_result["home_team_id"]:
+            team["played"] += 1
             team["goals_for"] += match_result["home_goals"]
             team["goals_against"] += match_result["away_goals"]
 
@@ -25,6 +26,7 @@ def update_team_by_result(teams, match_result):
                 team["losses"] += 1
             
         if team["id"] == match_result["away_team_id"]:
+            team["played"] += 1
             team["goals_for"] += match_result["away_goals"]
             team["goals_against"] += match_result["home_goals"]
 
