@@ -17,6 +17,11 @@ def writing_data(path, new_record):
         data = json.load(file)
     return data
 
+def update_data(path, data):
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
+    return data
+
 def read_data(path):
     with open(path, mode='r') as file:
         data = json.load(file)

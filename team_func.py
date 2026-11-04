@@ -12,5 +12,3 @@ def organizing_team_info(team_id, team_name):
     }
     return team
 
-def display_team(teams:list):
-    print(teams)
