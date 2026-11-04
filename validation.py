@@ -1,4 +1,5 @@
 def positive_number(number):
+    
     if number >= 0:
         return True
     else:
