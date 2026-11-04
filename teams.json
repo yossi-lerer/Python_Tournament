@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "macabi",
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals_for": 3,
+        "goals_against": 5,
+        "points": 0
+    },
+    {
+        "id": 2,
+        "name": "jerusalem",
+        "played": 0,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 5,
+        "goals_against": 3,
+        "points": 3
+    },
+    {
+        "id": 3,
+        "name": "x",
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0
+    },
+    {
+        "id": 5,
+        "name": "hs",
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0
+    },
+    {
+        "id": 55,
+        "name": "scsc",
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0
+    }
+]
