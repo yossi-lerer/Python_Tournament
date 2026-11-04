@@ -2,24 +2,24 @@
     {
         "id": 1,
         "name": "macabi",
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 1,
-        "goals_for": 3,
-        "goals_against": 5,
+        "losses": 2,
+        "goals_for": 8,
+        "goals_against": 11,
         "points": 17
     },
     {
         "id": 2,
         "name": "jerusalem",
-        "played": 0,
-        "wins": 1,
+        "played": 1,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "goals_for": 5,
-        "goals_against": 3,
-        "points": 3
+        "goals_for": 11,
+        "goals_against": 8,
+        "points": 6
     },
     {
         "id": 3,
